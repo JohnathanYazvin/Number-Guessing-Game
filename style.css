@@ -1,0 +1,203 @@
+body{
+    background-color: rgb(97, 123, 135);
+}
+h1{
+    position: absolute;
+    top: 3%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box{
+    background-color: rgb(29, 29, 46);
+    width: 500px;
+    height: 500px;
+    border-radius: 50px;
+    border: solid;
+    border-color: rgb(188, 225, 230);
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.box input{
+    background-color: black;
+    color: white;
+    width: 300px;
+    height: 70px;
+    border-radius: 3px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.BTN1 button{
+    background-color: black;
+    color: white;
+    width: 60px;
+    height: 50px;
+    border-radius: 3px;
+    border: none;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    transition: background-color 0.15s, opacity 0.2s;
+    cursor: pointer;
+}
+.BTN1 button:hover{
+    background-color: rgb(74, 21, 33);
+}
+
+.BTN1 button:active{
+    background-color: rgb(74, 21, 33);
+    opacity: 70%;
+}
+.HigherLower label{
+    color: white;
+    border-radius: 3px;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.CurrentScore label{
+    color: white;
+    border-radius: 3px;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
+.HighScore label{
+    color: white;
+    border-radius: 3px;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 10%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+}
+.CurrentScore1-10000 label{
+    color: white;
+    border-radius: 3px;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
+.HighScore1-10000 label{
+    color: white;
+    border-radius: 3px;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 10%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+}
+.BTN2 button{
+    background-color: black;
+    color: white;
+    width: 60px;
+    height: 50px;
+    border-radius: 3px;
+    border: none;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+.BTN2 button:hover{
+    background-color: rgb(74, 21, 33);
+}
+
+.BTN2 button:active{
+    background-color: rgb(74, 21, 33);
+    opacity: 70%;
+}
+
+.a1-10000 button{
+    background-color: black;
+    color: white;
+    width: 60px;
+    height: 50px;
+    border-radius: 3px;
+    border: none;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 75%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+.a1-10000 button:hover{
+    background-color: rgb(74, 21, 33);
+}
+
+.a1-10000 button:active{
+    background-color: rgb(74, 21, 33);
+    opacity: 70%;
+}
+
+.a1-100 button{
+    background-color: black;
+    color: white;
+    width: 60px;
+    height: 50px;
+    border-radius: 3px;
+    border: none;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 75%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+.a1-100 button:hover{
+    background-color: rgb(74, 21, 33);
+}
+
+.a1-100 button:active{
+    background-color: rgb(74, 21, 33);
+    opacity: 70%;
+}
+.N button{
+    background-color:transparent;
+    color: white;
+    width: 100px;
+    height: 50px;
+    border-radius: 3px;
+    border: none;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 75%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+}
+
+.N button:hover{
+    opacity: 80%;
+}
+
+.N button:active{
+    opacity: 70%;
+}
